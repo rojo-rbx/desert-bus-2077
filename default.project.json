@@ -1,0 +1,62 @@
+{
+  "name": "roads",
+  "tree": {
+    "$className": "DataModel",
+    "HttpService": {
+      "$className": "HttpService",
+      "$properties": {
+        "HttpEnabled": true
+      }
+    },
+    "Lighting": {
+      "$className": "Lighting",
+      "$properties": {
+        "GlobalShadows": true,
+        "Technology": "ShadowMap",
+        "ShadowSoftness": 0.5,
+        "TimeOfDay": "14:00:00",
+        "GeographicLatitude": 45,
+        "ShadowSoftness": 0,
+        "Brightness": 2
+      }
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Models": {
+        "$path": "models"
+      },
+      "Common": {
+        "$path": "src/common"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    },
+    "SoundService": {
+      "$className": "SoundService",
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": {
+        "FilteringEnabled": true
+      }
+    }
+  }
+}
