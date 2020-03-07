@@ -6,7 +6,6 @@ end
 
 print("Client loaded")
 
-local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 local Dbs = ReplicatedStorage.Packages.Dbs
@@ -23,8 +22,7 @@ local tree = Roact.mount(
 		state = "loading",
 		clientSession = nil,
 	}),
-	Players.LocalPlayer.PlayerGui,
-	"Dbsui"
+	game.Players.LocalPlayer.PlayerGui
 )
 
 local clientSession

@@ -1,3 +1,5 @@
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
 local ClientSession = {}
 ClientSession.__index = ClientSession
 
@@ -21,6 +23,7 @@ end
 
 function ClientSession:tripStarted(tripId, tripStatus)
 	print("server told us our trip started")
+
 	self.tripId = tripId
 	self.tripStatus = tripStatus
 	self.signal:Fire(self.tripStatus)
