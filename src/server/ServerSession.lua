@@ -1,10 +1,13 @@
 local Players = game:GetService("Players")
+local HttpService = game:GetService("HttpService")
+local RunService = game:GetService("RunService")
 
 local ServerSession = {}
 ServerSession.__index = ServerSession
 
-function ServerSession.new()
+function ServerSession.new(netClient)
 	local session = setmetatable({
+		netClient = netClient,
 		trips = {},
 		players = {},
 		globalConnections = {},
@@ -22,7 +25,60 @@ function ServerSession.new()
 	end)
 	table.insert(session.globalConnections, removedConnection)
 
+	local stepConnection = RunService.Heartbeat:Connect(function(dt)
+		session:step(dt)
+	end)
+	table.insert(session.globalConnections, stepConnection)
+
 	return session
+end
+
+function ServerSession:step(dt)
+	for tripId, trip in pairs(self.trips) do
+		if trip.status.type == "driving" then
+			trip.status.progress = trip.status.progress + dt
+
+			for _, playerId in ipairs(trip.players) do
+				local playerData = self.players[playerId]
+
+				if playerData ~= nil then
+					self.netClient:tripStatusUpdated(playerData.player, tripId, trip.status)
+				end
+			end
+		end
+	end
+end
+
+function ServerSession:canStartTrip(player)
+	local playerData = self.players[player.UserId]
+
+	return playerData.tripId == nil
+end
+
+function ServerSession:startTrip(player)
+	local playerData = self.players[player.UserId]
+
+	if playerData == nil then
+		warn("Cannot start a trip from unknown player " .. player.Name)
+		return
+	end
+
+	if self:canStartTrip(player) then
+		local tripId = HttpService:GenerateGUID(false)
+
+		local trip = {
+			players = {player.UserId},
+			status = {
+				type = "driving",
+				progress = 0,
+			},
+		}
+
+		self.trips[tripId] = trip
+		playerData.tripId = tripId
+
+		self.netClient:tripStarted(player, tripId, trip.status)
+	end
 end
 
 function ServerSession:registerExistingPlayers()
@@ -32,12 +88,17 @@ function ServerSession:registerExistingPlayers()
 end
 
 function ServerSession:unregisterPlayer(player)
+	-- TODO: Save player data
+
 	self.players[player.UserId] = nil
 end
 
 function ServerSession:registerPlayer(player)
+	-- TODO: Load saved player data
+
 	self.players[player.UserId] = {
-		busId = {},
+		player = player,
+		tripId = nil,
 	}
 end
 

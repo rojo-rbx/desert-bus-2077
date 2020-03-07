@@ -6,17 +6,55 @@ end
 
 print("Client loaded")
 
+local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 local Dbs = ReplicatedStorage.Packages.Dbs
 
 local Net = require(ReplicatedStorage.Packages.Net)
+local Roact = require(ReplicatedStorage.Packages.Roact)
+
+local ClientSession = require(Dbs.ClientSession)
+local App = require(Dbs.Components.App)
 local Api = require(Dbs.Api)
 
-local client = Net.NetClient.connect(Api, {
-	tripStarted = function()
-		print("trip started!!")
+local tree = Roact.mount(
+	Roact.createElement(App, {
+		state = "loading",
+		clientSession = nil,
+	}),
+	Players.LocalPlayer.PlayerGui,
+	"Dbsui"
+)
+
+local clientSession
+
+local netClient = Net.NetClient.connect(Api, {
+	tripStarted = function(tripId)
+		clientSession:tripStarted(tripId)
+	end,
+
+	tripStatusUpdated = function(tripId, status)
+		clientSession:tripStatusUpdated(tripId, status)
 	end,
 })
 
-client:startTrip()
+clientSession = ClientSession.new(netClient)
+
+-- Do a two-phase update to work around https://github.com/Roblox/roact/issues/259
+
+Roact.update(
+	tree,
+	Roact.createElement(App, {
+		state = "loading",
+		clientSession = clientSession,
+	})
+)
+
+Roact.update(
+	tree,
+	Roact.createElement(App, {
+		state = "loaded",
+		clientSession = clientSession,
+	})
+)

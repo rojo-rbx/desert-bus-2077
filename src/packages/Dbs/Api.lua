@@ -1,4 +1,10 @@
 local Net = require(script.Parent.Parent.Net)
+local t = require(script.Parent.Parent.t)
+
+local TripStatus = t.strictInterface({
+	type = t.literal("driving"),
+	progress = t.number,
+})
 
 return {
 	fromClient = {
@@ -8,7 +14,17 @@ return {
 	},
 	fromServer = {
 		tripStarted = {
-			arguments = Net.args()
+			arguments = Net.args(
+				{"tripId", t.string},
+				{"tripStatus", TripStatus}
+			)
+		},
+
+		tripStatusUpdated = {
+			arguments = Net.args(
+				{"tripId", t.string},
+				{"tripStatus", TripStatus}
+			)
 		},
 	},
 }

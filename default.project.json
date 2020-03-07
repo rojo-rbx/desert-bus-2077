@@ -28,8 +28,12 @@
       "Packages": {
         "$path": "src/packages",
 
+        "Roact": {
+          "$path": "modules/Roact"
+        },
+
         "t": {
-          "$path": "modules/t/lib"
+          "$path": "modules/t"
         }
       }
     },

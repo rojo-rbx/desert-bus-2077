@@ -13,11 +13,15 @@ lobby.Parent = Workspace
 local Net = require(ReplicatedStorage.Packages.Net)
 local Api = require(Dbs.Api)
 
-local server
-server = Net.NetServer.create(Api, {
-	startTrip = function(player)
-		print("player wants to start trip")
+local ServerSession = require(script.ServerSession)
 
-		server:tripStarted(player)
+local serverSession
+
+local netClient
+netClient = Net.NetServer.create(Api, {
+	startTrip = function(player)
+		serverSession:startTrip(player)
 	end,
 })
+
+serverSession = ServerSession.new(netClient)
