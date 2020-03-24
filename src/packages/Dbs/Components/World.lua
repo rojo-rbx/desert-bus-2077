@@ -42,7 +42,7 @@ function World:applyTripStatus()
 
 	if status ~= nil then
 		if status.type == "driving" then
-			self.bus:SetPrimaryPartCFrame(CFrame.new(Vector3.new(0, 3, -status.progress * 30)))
+			self.bus:SetPrimaryPartCFrame(CFrame.new(Vector3.new(9, 3, -status.progress * 30)))
 
 			if not self.haveSeated and LocalPlayer.Character ~= nil then
 				print("Trying to seat character...")

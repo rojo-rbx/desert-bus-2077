@@ -28,8 +28,7 @@ function RoadChunk:render()
 end
 
 function RoadChunk:updatePos()
-	local basePos = Vector3.new(-10, 0, 0)
-	local chunkPos = basePos + Vector3.new(0, 0, -self.props.index * segmentLength)
+	local chunkPos = Vector3.new(0, 0, -self.props.index * segmentLength)
 
 	if chunkPos ~= self.lastPos then
 		self.lastPos = chunkPos
