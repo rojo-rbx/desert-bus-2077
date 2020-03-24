@@ -39,16 +39,6 @@ local netClient = Net.NetClient.connect(Api, {
 
 clientSession = ClientSession.new(netClient)
 
--- Do a two-phase update to work around https://github.com/Roblox/roact/issues/259
-
-Roact.update(
-	tree,
-	Roact.createElement(App, {
-		state = "loading",
-		clientSession = clientSession,
-	})
-)
-
 Roact.update(
 	tree,
 	Roact.createElement(App, {
