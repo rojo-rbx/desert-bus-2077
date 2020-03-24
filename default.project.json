@@ -2,12 +2,6 @@
   "name": "untitled-game",
   "tree": {
     "$className": "DataModel",
-    "HttpService": {
-      "$className": "HttpService",
-      "$properties": {
-        "HttpEnabled": true
-      }
-    },
     "Lighting": {
       "$className": "Lighting",
       "$properties": {
