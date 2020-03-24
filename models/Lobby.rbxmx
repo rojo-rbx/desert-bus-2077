@@ -2,7 +2,7 @@
 	<Meta name="ExplicitAutoJoints">true</Meta>
 	<External>null</External>
 	<External>nil</External>
-	<Item class="Model" referent="RBXE46DE2DE6EEA48A9A8AC54F66809054F">
+	<Item class="Model" referent="82">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<CoordinateFrame name="ModelInPrimary">
@@ -20,10 +20,10 @@
 				<R22>1</R22>
 			</CoordinateFrame>
 			<string name="Name">Lobby</string>
-			<Ref name="PrimaryPart">RBXBBB703D1FA214D6CABC9F30708A79625</Ref>
+			<Ref name="PrimaryPart">83</Ref>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
-		<Item class="Part" referent="RBXBBB703D1FA214D6CABC9F30708A79625">
+		<Item class="Part" referent="83">
 			<Properties>
 				<bool name="Anchored">true</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -99,7 +99,7 @@
 				</Vector3>
 			</Properties>
 		</Item>
-		<Item class="SpawnLocation" referent="RBXCEB3962998024FF28EA5EB5ACEF9039E">
+		<Item class="SpawnLocation" referent="84">
 			<Properties>
 				<bool name="AllowTeamChangeOnTouch">false</bool>
 				<bool name="Anchored">true</bool>
@@ -133,7 +133,7 @@
 				<PhysicalProperties name="CustomPhysicalProperties">
 					<CustomPhysics>false</CustomPhysics>
 				</PhysicalProperties>
-				<int name="Duration">10</int>
+				<int name="Duration">0</int>
 				<bool name="Enabled">true</bool>
 				<float name="FrontParamA">-0.5</float>
 				<float name="FrontParamB">0.5</float>

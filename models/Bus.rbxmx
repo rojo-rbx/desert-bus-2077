@@ -2,7 +2,7 @@
 	<Meta name="ExplicitAutoJoints">true</Meta>
 	<External>null</External>
 	<External>nil</External>
-	<Item class="Model" referent="RBXC0114733E97C48BE92EAC75B5F4EF729">
+	<Item class="Model" referent="3">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<CoordinateFrame name="ModelInPrimary">
@@ -20,10 +20,10 @@
 				<R22>1</R22>
 			</CoordinateFrame>
 			<string name="Name">Bus</string>
-			<Ref name="PrimaryPart">RBXA3B87E15FEA14BA99948C75047CF5C8D</Ref>
+			<Ref name="PrimaryPart">4</Ref>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
-		<Item class="Part" referent="RBXBAB7BE83A4DC4C34902A06AB88E2C7CC">
+		<Item class="Part" referent="5">
 			<Properties>
 				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -98,7 +98,7 @@
 					<Z>1</Z>
 				</Vector3>
 			</Properties>
-			<Item class="Weld" referent="RBXA3294B5EA36E44949460ADD739D2B4CE">
+			<Item class="Weld" referent="6">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -132,13 +132,13 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXA3B87E15FEA14BA99948C75047CF5C8D</Ref>
-					<Ref name="Part1">RBXBAB7BE83A4DC4C34902A06AB88E2C7CC</Ref>
+					<Ref name="Part0">4</Ref>
+					<Ref name="Part1">5</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBXBEE515A1076E487CADB1781D81F17D10">
+		<Item class="Part" referent="7">
 			<Properties>
 				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -213,7 +213,7 @@
 					<Z>1</Z>
 				</Vector3>
 			</Properties>
-			<Item class="SurfaceLight" referent="RBX2B9F3C607E0049ED86408438B9F43BF1">
+			<Item class="SurfaceLight" referent="8">
 				<Properties>
 					<float name="Angle">40</float>
 					<BinaryString name="AttributesSerialize"></BinaryString>
@@ -231,7 +231,7 @@
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBX10027CD06F0F4CB4AE5F41D0FB5FE28F">
+			<Item class="Weld" referent="9">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -265,13 +265,13 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBX57D57EF16DD7495392730E9E0749C702</Ref>
-					<Ref name="Part1">RBXBEE515A1076E487CADB1781D81F17D10</Ref>
+					<Ref name="Part0">10</Ref>
+					<Ref name="Part1">7</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBXFFA7E72975BB435D8818F2A305E48513">
+		<Item class="Part" referent="11">
 			<Properties>
 				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -346,7 +346,7 @@
 					<Z>1</Z>
 				</Vector3>
 			</Properties>
-			<Item class="SurfaceLight" referent="RBX47E702D6EF2F43928396A7B7F90336D7">
+			<Item class="SurfaceLight" referent="12">
 				<Properties>
 					<float name="Angle">30</float>
 					<BinaryString name="AttributesSerialize"></BinaryString>
@@ -364,7 +364,7 @@
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBXFF87D9BCDB154D26BB43C4D44DF509E1">
+			<Item class="Weld" referent="13">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -398,13 +398,13 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXBAB7BE83A4DC4C34902A06AB88E2C7CC</Ref>
-					<Ref name="Part1">RBXFFA7E72975BB435D8818F2A305E48513</Ref>
+					<Ref name="Part0">5</Ref>
+					<Ref name="Part1">11</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBXBF010765A86E460CA848702B961A92A1">
+		<Item class="Part" referent="14">
 			<Properties>
 				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -479,14 +479,14 @@
 					<Z>1</Z>
 				</Vector3>
 			</Properties>
-			<Item class="Weld" referent="RBXC92DB051740C46D48FEE353B6BA98BFE">
+			<Item class="Weld" referent="15">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
 						<X>0.5</X>
 						<Y>-3</Y>
 						<Z>0.5</Z>
-						<R00>-0</R00>
+						<R00>0</R00>
 						<R01>0</R01>
 						<R02>1</R02>
 						<R10>0</R10>
@@ -494,7 +494,7 @@
 						<R12>0</R12>
 						<R20>-1</R20>
 						<R21>0</R21>
-						<R22>-0</R22>
+						<R22>0</R22>
 					</CoordinateFrame>
 					<CoordinateFrame name="C1">
 						<X>-11</X>
@@ -513,12 +513,12 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXBC385863D22B4E15B9F72B834996E210</Ref>
-					<Ref name="Part1">RBXBF010765A86E460CA848702B961A92A1</Ref>
+					<Ref name="Part0">16</Ref>
+					<Ref name="Part1">14</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBX2EF0A74E47DA40E8ADB72850338E1A03">
+			<Item class="Weld" referent="17">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -531,7 +531,7 @@
 						<R10>0</R10>
 						<R11>0</R11>
 						<R12>-1</R12>
-						<R20>-0</R20>
+						<R20>0</R20>
 						<R21>1</R21>
 						<R22>0</R22>
 					</CoordinateFrame>
@@ -552,19 +552,19 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBX3310429287C04A0F826FEFD538BD7672</Ref>
-					<Ref name="Part1">RBXBF010765A86E460CA848702B961A92A1</Ref>
+					<Ref name="Part0">18</Ref>
+					<Ref name="Part1">14</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBX84968095BB494EEC85202B542A5309E4">
+			<Item class="Weld" referent="19">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
 						<X>-0.5</X>
 						<Y>-3</Y>
 						<Z>-1</Z>
-						<R00>-0</R00>
+						<R00>0</R00>
 						<R01>0</R01>
 						<R02>-1</R02>
 						<R10>0</R10>
@@ -572,7 +572,7 @@
 						<R12>0</R12>
 						<R20>1</R20>
 						<R21>0</R21>
-						<R22>-0</R22>
+						<R22>0</R22>
 					</CoordinateFrame>
 					<CoordinateFrame name="C1">
 						<X>11</X>
@@ -591,12 +591,12 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBX5E3C6A67B33B4F57B16D3814B7428B67</Ref>
-					<Ref name="Part1">RBXBF010765A86E460CA848702B961A92A1</Ref>
+					<Ref name="Part0">20</Ref>
+					<Ref name="Part1">14</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBXA9450AB25FFA4F699271CE12327DE76F">
+			<Item class="Weld" referent="21">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -630,13 +630,13 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXDE6FE604A3A74DA181E49527C7A62947</Ref>
-					<Ref name="Part1">RBXBF010765A86E460CA848702B961A92A1</Ref>
+					<Ref name="Part0">22</Ref>
+					<Ref name="Part1">14</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBXEE6B911F9AE64CFE87FFC9BAE2A77611">
+		<Item class="Part" referent="23">
 			<Properties>
 				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -711,7 +711,7 @@
 					<Z>1</Z>
 				</Vector3>
 			</Properties>
-			<Item class="SurfaceLight" referent="RBXF156D5401275421AA6B0BB4EC1049C0D">
+			<Item class="SurfaceLight" referent="24">
 				<Properties>
 					<float name="Angle">30</float>
 					<BinaryString name="AttributesSerialize"></BinaryString>
@@ -729,7 +729,7 @@
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBX8A01DEBBFEBC4E929BC8487D34478590">
+			<Item class="Weld" referent="25">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -763,13 +763,13 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXBAB7BE83A4DC4C34902A06AB88E2C7CC</Ref>
-					<Ref name="Part1">RBXEE6B911F9AE64CFE87FFC9BAE2A77611</Ref>
+					<Ref name="Part0">5</Ref>
+					<Ref name="Part1">23</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBXCCE83E0E43A045A98C07DB63CEF5FE08">
+		<Item class="Part" referent="26">
 			<Properties>
 				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -844,14 +844,14 @@
 					<Z>2</Z>
 				</Vector3>
 			</Properties>
-			<Item class="Weld" referent="RBXF8F7C035E6A24BB8A101FACD3285C4C7">
+			<Item class="Weld" referent="27">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
 						<X>4</X>
 						<Y>-1</Y>
 						<Z>0.5</Z>
-						<R00>-0</R00>
+						<R00>0</R00>
 						<R01>0</R01>
 						<R02>1</R02>
 						<R10>0</R10>
@@ -859,7 +859,7 @@
 						<R12>0</R12>
 						<R20>-1</R20>
 						<R21>0</R21>
-						<R22>-0</R22>
+						<R22>0</R22>
 					</CoordinateFrame>
 					<CoordinateFrame name="C1">
 						<X>-0.5</X>
@@ -878,12 +878,12 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXBAB7BE83A4DC4C34902A06AB88E2C7CC</Ref>
-					<Ref name="Part1">RBXCCE83E0E43A045A98C07DB63CEF5FE08</Ref>
+					<Ref name="Part0">5</Ref>
+					<Ref name="Part1">26</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBX91409F2D47334EC28AC82078174D52B6">
+			<Item class="Weld" referent="28">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -917,13 +917,13 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXA3B87E15FEA14BA99948C75047CF5C8D</Ref>
-					<Ref name="Part1">RBXCCE83E0E43A045A98C07DB63CEF5FE08</Ref>
+					<Ref name="Part0">4</Ref>
+					<Ref name="Part1">26</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBX8C1589E5A35F48B697672C31E7137F1F">
+		<Item class="Part" referent="29">
 			<Properties>
 				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -998,7 +998,7 @@
 					<Z>1</Z>
 				</Vector3>
 			</Properties>
-			<Item class="Weld" referent="RBXE2686AA078D64CA3939F929CDDD99AF9">
+			<Item class="Weld" referent="30">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -1032,12 +1032,12 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXCCE83E0E43A045A98C07DB63CEF5FE08</Ref>
-					<Ref name="Part1">RBX8C1589E5A35F48B697672C31E7137F1F</Ref>
+					<Ref name="Part0">26</Ref>
+					<Ref name="Part1">29</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBXDE2FDF018B544826A40BB9F0E125049F">
+			<Item class="Weld" referent="31">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -1071,12 +1071,12 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBX5E3C6A67B33B4F57B16D3814B7428B67</Ref>
-					<Ref name="Part1">RBX8C1589E5A35F48B697672C31E7137F1F</Ref>
+					<Ref name="Part0">20</Ref>
+					<Ref name="Part1">29</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBX626B87D8B9CC48B68786699A84764446">
+			<Item class="Weld" referent="32">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -1089,7 +1089,7 @@
 						<R10>0</R10>
 						<R11>0</R11>
 						<R12>-1</R12>
-						<R20>-0</R20>
+						<R20>0</R20>
 						<R21>1</R21>
 						<R22>0</R22>
 					</CoordinateFrame>
@@ -1110,12 +1110,12 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBX3310429287C04A0F826FEFD538BD7672</Ref>
-					<Ref name="Part1">RBX8C1589E5A35F48B697672C31E7137F1F</Ref>
+					<Ref name="Part0">18</Ref>
+					<Ref name="Part1">29</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBX87D005945F4946C9897313748D4AB3CF">
+			<Item class="Weld" referent="33">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -1149,13 +1149,13 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXBAB7BE83A4DC4C34902A06AB88E2C7CC</Ref>
-					<Ref name="Part1">RBX8C1589E5A35F48B697672C31E7137F1F</Ref>
+					<Ref name="Part0">5</Ref>
+					<Ref name="Part1">29</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Seat" referent="RBX702290180E284BF5878456C1355680E9">
+		<Item class="Seat" referent="34">
 			<Properties>
 				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -1232,7 +1232,7 @@
 				</Vector3>
 			</Properties>
 		</Item>
-		<Item class="Seat" referent="RBXEF299FCB7B4A4D39829E750D80D4C198">
+		<Item class="Seat" referent="35">
 			<Properties>
 				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -1309,7 +1309,7 @@
 				</Vector3>
 			</Properties>
 		</Item>
-		<Item class="Seat" referent="RBXB63C4CA58F50427E950C92EE02C549C7">
+		<Item class="Seat" referent="36">
 			<Properties>
 				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -1386,9 +1386,9 @@
 				</Vector3>
 			</Properties>
 		</Item>
-		<Item class="Part" referent="RBXA3B87E15FEA14BA99948C75047CF5C8D">
+		<Item class="Part" referent="4">
 			<Properties>
-				<bool name="Anchored">false</bool>
+				<bool name="Anchored">true</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<float name="BackParamA">-0.5</float>
 				<float name="BackParamB">0.5</float>
@@ -1461,7 +1461,7 @@
 					<Z>24</Z>
 				</Vector3>
 			</Properties>
-			<Item class="Weld" referent="RBXB42BB9C4881D44FA95A06AB8DC334369">
+			<Item class="Weld" referent="37">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -1474,7 +1474,7 @@
 						<R10>0</R10>
 						<R11>0</R11>
 						<R12>-1</R12>
-						<R20>-0</R20>
+						<R20>0</R20>
 						<R21>1</R21>
 						<R22>0</R22>
 					</CoordinateFrame>
@@ -1495,12 +1495,12 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBX702290180E284BF5878456C1355680E9</Ref>
-					<Ref name="Part1">RBXA3B87E15FEA14BA99948C75047CF5C8D</Ref>
+					<Ref name="Part0">34</Ref>
+					<Ref name="Part1">4</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBXA02E6CC1D6F1432EAA0780420F557BDF">
+			<Item class="Weld" referent="38">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -1513,7 +1513,7 @@
 						<R10>0</R10>
 						<R11>0</R11>
 						<R12>-1</R12>
-						<R20>-0</R20>
+						<R20>0</R20>
 						<R21>1</R21>
 						<R22>0</R22>
 					</CoordinateFrame>
@@ -1534,12 +1534,12 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBX5F79A861F4B14BABA00B9E3CB6C4B685</Ref>
-					<Ref name="Part1">RBXA3B87E15FEA14BA99948C75047CF5C8D</Ref>
+					<Ref name="Part0">39</Ref>
+					<Ref name="Part1">4</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBXCAE47EF79BA6489794360B917E3302CE">
+			<Item class="Weld" referent="40">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -1552,7 +1552,7 @@
 						<R10>0</R10>
 						<R11>0</R11>
 						<R12>-1</R12>
-						<R20>-0</R20>
+						<R20>0</R20>
 						<R21>1</R21>
 						<R22>0</R22>
 					</CoordinateFrame>
@@ -1573,12 +1573,12 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBX15273CAD40E1406AA6DADD18719004D5</Ref>
-					<Ref name="Part1">RBXA3B87E15FEA14BA99948C75047CF5C8D</Ref>
+					<Ref name="Part0">41</Ref>
+					<Ref name="Part1">4</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBX1D933E863A9B4FB79769A90E38065453">
+			<Item class="Weld" referent="42">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -1591,7 +1591,7 @@
 						<R10>0</R10>
 						<R11>0</R11>
 						<R12>-1</R12>
-						<R20>-0</R20>
+						<R20>0</R20>
 						<R21>1</R21>
 						<R22>0</R22>
 					</CoordinateFrame>
@@ -1612,12 +1612,12 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXEF299FCB7B4A4D39829E750D80D4C198</Ref>
-					<Ref name="Part1">RBXA3B87E15FEA14BA99948C75047CF5C8D</Ref>
+					<Ref name="Part0">35</Ref>
+					<Ref name="Part1">4</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBX8B15BD5059044ED0A341E5484BA1A003">
+			<Item class="Weld" referent="43">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -1630,7 +1630,7 @@
 						<R10>0</R10>
 						<R11>0</R11>
 						<R12>-1</R12>
-						<R20>-0</R20>
+						<R20>0</R20>
 						<R21>1</R21>
 						<R22>0</R22>
 					</CoordinateFrame>
@@ -1651,12 +1651,12 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXB63C4CA58F50427E950C92EE02C549C7</Ref>
-					<Ref name="Part1">RBXA3B87E15FEA14BA99948C75047CF5C8D</Ref>
+					<Ref name="Part0">36</Ref>
+					<Ref name="Part1">4</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBX9FB45B009A1F4848BD6F56A91ACCC3AD">
+			<Item class="Weld" referent="44">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -1669,7 +1669,7 @@
 						<R10>0</R10>
 						<R11>0</R11>
 						<R12>-1</R12>
-						<R20>-0</R20>
+						<R20>0</R20>
 						<R21>1</R21>
 						<R22>0</R22>
 					</CoordinateFrame>
@@ -1690,12 +1690,12 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXAC5EE368DCA74278BAB79366734E0319</Ref>
-					<Ref name="Part1">RBXA3B87E15FEA14BA99948C75047CF5C8D</Ref>
+					<Ref name="Part0">45</Ref>
+					<Ref name="Part1">4</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBX226D17D067B741389AFF7AE9F8050C2C">
+			<Item class="Weld" referent="46">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -1708,7 +1708,7 @@
 						<R10>0</R10>
 						<R11>0</R11>
 						<R12>-1</R12>
-						<R20>-0</R20>
+						<R20>0</R20>
 						<R21>1</R21>
 						<R22>0</R22>
 					</CoordinateFrame>
@@ -1729,12 +1729,12 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXB105F080ED314AB493DF7034252B943D</Ref>
-					<Ref name="Part1">RBXA3B87E15FEA14BA99948C75047CF5C8D</Ref>
+					<Ref name="Part0">47</Ref>
+					<Ref name="Part1">4</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBXC4EBDB3A3AE442BAADCD104837A83BA1">
+			<Item class="Weld" referent="48">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -1747,7 +1747,7 @@
 						<R10>0</R10>
 						<R11>0</R11>
 						<R12>-1</R12>
-						<R20>-0</R20>
+						<R20>0</R20>
 						<R21>1</R21>
 						<R22>0</R22>
 					</CoordinateFrame>
@@ -1768,13 +1768,13 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXD4C382057EED41B19392EC17D0EB0D27</Ref>
-					<Ref name="Part1">RBXA3B87E15FEA14BA99948C75047CF5C8D</Ref>
+					<Ref name="Part0">49</Ref>
+					<Ref name="Part1">4</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBXB47536B6B823450D8A752336D525FEC1">
+		<Item class="Part" referent="50">
 			<Properties>
 				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -1849,7 +1849,7 @@
 					<Z>1</Z>
 				</Vector3>
 			</Properties>
-			<Item class="SurfaceLight" referent="RBX018478F575F441E5874BD393621AFA0E">
+			<Item class="SurfaceLight" referent="51">
 				<Properties>
 					<float name="Angle">40</float>
 					<BinaryString name="AttributesSerialize"></BinaryString>
@@ -1867,7 +1867,7 @@
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBX258595BBE712472893A5238A594D6AD8">
+			<Item class="Weld" referent="52">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -1901,13 +1901,13 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBX57D57EF16DD7495392730E9E0749C702</Ref>
-					<Ref name="Part1">RBXB47536B6B823450D8A752336D525FEC1</Ref>
+					<Ref name="Part0">10</Ref>
+					<Ref name="Part1">50</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBXCB469B642C1446A0BF295727D7896EF3">
+		<Item class="Part" referent="53">
 			<Properties>
 				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -1982,14 +1982,14 @@
 					<Z>1</Z>
 				</Vector3>
 			</Properties>
-			<Item class="Weld" referent="RBX7D1FAAD036734224B2267C050F58E1BC">
+			<Item class="Weld" referent="54">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
 						<X>0.5</X>
 						<Y>-3</Y>
 						<Z>0.5</Z>
-						<R00>-0</R00>
+						<R00>0</R00>
 						<R01>0</R01>
 						<R02>1</R02>
 						<R10>0</R10>
@@ -1997,7 +1997,7 @@
 						<R12>0</R12>
 						<R20>-1</R20>
 						<R21>0</R21>
-						<R22>-0</R22>
+						<R22>0</R22>
 					</CoordinateFrame>
 					<CoordinateFrame name="C1">
 						<X>-8.5</X>
@@ -2016,12 +2016,12 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXB4582468175B498182C8BFBF8542A738</Ref>
-					<Ref name="Part1">RBXCB469B642C1446A0BF295727D7896EF3</Ref>
+					<Ref name="Part0">55</Ref>
+					<Ref name="Part1">53</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBXA576AD83C0024CCBAAA5C3369ACE39B0">
+			<Item class="Weld" referent="56">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -2055,13 +2055,13 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXA3B87E15FEA14BA99948C75047CF5C8D</Ref>
-					<Ref name="Part1">RBXCB469B642C1446A0BF295727D7896EF3</Ref>
+					<Ref name="Part0">4</Ref>
+					<Ref name="Part1">53</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBX57D57EF16DD7495392730E9E0749C702">
+		<Item class="Part" referent="10">
 			<Properties>
 				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -2136,7 +2136,7 @@
 					<Z>1</Z>
 				</Vector3>
 			</Properties>
-			<Item class="Weld" referent="RBXEFA31F6CEFCF47E1ACC3D9B5E00339EB">
+			<Item class="Weld" referent="57">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -2170,12 +2170,12 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXB4582468175B498182C8BFBF8542A738</Ref>
-					<Ref name="Part1">RBX57D57EF16DD7495392730E9E0749C702</Ref>
+					<Ref name="Part0">55</Ref>
+					<Ref name="Part1">10</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBX6CC73C63C3CC49BCA665C4CEA34C4E14">
+			<Item class="Weld" referent="58">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -2209,12 +2209,12 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXBC385863D22B4E15B9F72B834996E210</Ref>
-					<Ref name="Part1">RBX57D57EF16DD7495392730E9E0749C702</Ref>
+					<Ref name="Part0">16</Ref>
+					<Ref name="Part1">10</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBX59A370AED61245539F95FEA3BC40D02C">
+			<Item class="Weld" referent="59">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -2248,13 +2248,13 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXA3B87E15FEA14BA99948C75047CF5C8D</Ref>
-					<Ref name="Part1">RBX57D57EF16DD7495392730E9E0749C702</Ref>
+					<Ref name="Part0">4</Ref>
+					<Ref name="Part1">10</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBXBC385863D22B4E15B9F72B834996E210">
+		<Item class="Part" referent="16">
 			<Properties>
 				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -2329,7 +2329,7 @@
 					<Z>1</Z>
 				</Vector3>
 			</Properties>
-			<Item class="Weld" referent="RBX46DB13EA8DE042CF8EFCD961981177B1">
+			<Item class="Weld" referent="60">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -2363,13 +2363,13 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXA3B87E15FEA14BA99948C75047CF5C8D</Ref>
-					<Ref name="Part1">RBXBC385863D22B4E15B9F72B834996E210</Ref>
+					<Ref name="Part0">4</Ref>
+					<Ref name="Part1">16</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBXB4582468175B498182C8BFBF8542A738">
+		<Item class="Part" referent="55">
 			<Properties>
 				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -2444,7 +2444,7 @@
 					<Z>1</Z>
 				</Vector3>
 			</Properties>
-			<Item class="Weld" referent="RBXD548ED10CFE249CFA7517D24A83B4800">
+			<Item class="Weld" referent="61">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -2478,13 +2478,13 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXA3B87E15FEA14BA99948C75047CF5C8D</Ref>
-					<Ref name="Part1">RBXB4582468175B498182C8BFBF8542A738</Ref>
+					<Ref name="Part0">4</Ref>
+					<Ref name="Part1">55</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBX5E3C6A67B33B4F57B16D3814B7428B67">
+		<Item class="Part" referent="20">
 			<Properties>
 				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -2559,14 +2559,14 @@
 					<Z>2</Z>
 				</Vector3>
 			</Properties>
-			<Item class="Weld" referent="RBX3F4EE6FAB3E646A389F5F27C10CC30BE">
+			<Item class="Weld" referent="62">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
 						<X>-4</X>
 						<Y>-1</Y>
 						<Z>-0.5</Z>
-						<R00>-0</R00>
+						<R00>0</R00>
 						<R01>0</R01>
 						<R02>-1</R02>
 						<R10>0</R10>
@@ -2574,7 +2574,7 @@
 						<R12>0</R12>
 						<R20>1</R20>
 						<R21>0</R21>
-						<R22>-0</R22>
+						<R22>0</R22>
 					</CoordinateFrame>
 					<CoordinateFrame name="C1">
 						<X>0.5</X>
@@ -2593,12 +2593,12 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXBAB7BE83A4DC4C34902A06AB88E2C7CC</Ref>
-					<Ref name="Part1">RBX5E3C6A67B33B4F57B16D3814B7428B67</Ref>
+					<Ref name="Part0">5</Ref>
+					<Ref name="Part1">20</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBX5A390CBF42834D81AC3061F8C9D4793E">
+			<Item class="Weld" referent="63">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -2632,13 +2632,13 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXA3B87E15FEA14BA99948C75047CF5C8D</Ref>
-					<Ref name="Part1">RBX5E3C6A67B33B4F57B16D3814B7428B67</Ref>
+					<Ref name="Part0">4</Ref>
+					<Ref name="Part1">20</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Seat" referent="RBXD4C382057EED41B19392EC17D0EB0D27">
+		<Item class="Seat" referent="49">
 			<Properties>
 				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -2715,7 +2715,7 @@
 				</Vector3>
 			</Properties>
 		</Item>
-		<Item class="Seat" referent="RBX5F79A861F4B14BABA00B9E3CB6C4B685">
+		<Item class="Seat" referent="39">
 			<Properties>
 				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -2792,7 +2792,7 @@
 				</Vector3>
 			</Properties>
 		</Item>
-		<Item class="Seat" referent="RBXAC5EE368DCA74278BAB79366734E0319">
+		<Item class="Seat" referent="45">
 			<Properties>
 				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -2869,7 +2869,7 @@
 				</Vector3>
 			</Properties>
 		</Item>
-		<Item class="Seat" referent="RBXB105F080ED314AB493DF7034252B943D">
+		<Item class="Seat" referent="47">
 			<Properties>
 				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -2946,7 +2946,7 @@
 				</Vector3>
 			</Properties>
 		</Item>
-		<Item class="Seat" referent="RBX15273CAD40E1406AA6DADD18719004D5">
+		<Item class="Seat" referent="41">
 			<Properties>
 				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -3023,7 +3023,7 @@
 				</Vector3>
 			</Properties>
 		</Item>
-		<Item class="Part" referent="RBXDE6FE604A3A74DA181E49527C7A62947">
+		<Item class="Part" referent="22">
 			<Properties>
 				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -3098,14 +3098,14 @@
 					<Z>1</Z>
 				</Vector3>
 			</Properties>
-			<Item class="Weld" referent="RBXCE1171C9C5044B7799CD52AA6D67233E">
+			<Item class="Weld" referent="64">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
 						<X>0.5</X>
 						<Y>-3</Y>
 						<Z>0.5</Z>
-						<R00>-0</R00>
+						<R00>0</R00>
 						<R01>0</R01>
 						<R02>1</R02>
 						<R10>0</R10>
@@ -3113,7 +3113,7 @@
 						<R12>0</R12>
 						<R20>-1</R20>
 						<R21>0</R21>
-						<R22>-0</R22>
+						<R22>0</R22>
 					</CoordinateFrame>
 					<CoordinateFrame name="C1">
 						<X>-11</X>
@@ -3132,19 +3132,19 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXBC385863D22B4E15B9F72B834996E210</Ref>
-					<Ref name="Part1">RBXDE6FE604A3A74DA181E49527C7A62947</Ref>
+					<Ref name="Part0">16</Ref>
+					<Ref name="Part1">22</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBX48ADD84354E8425C9C55D4C1CA00557D">
+			<Item class="Weld" referent="65">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
 						<X>-0.5</X>
 						<Y>-3</Y>
 						<Z>-1</Z>
-						<R00>-0</R00>
+						<R00>0</R00>
 						<R01>0</R01>
 						<R02>-1</R02>
 						<R10>0</R10>
@@ -3152,7 +3152,7 @@
 						<R12>0</R12>
 						<R20>1</R20>
 						<R21>0</R21>
-						<R22>-0</R22>
+						<R22>0</R22>
 					</CoordinateFrame>
 					<CoordinateFrame name="C1">
 						<X>11</X>
@@ -3171,12 +3171,12 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBX5E3C6A67B33B4F57B16D3814B7428B67</Ref>
-					<Ref name="Part1">RBXDE6FE604A3A74DA181E49527C7A62947</Ref>
+					<Ref name="Part0">20</Ref>
+					<Ref name="Part1">22</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBX92B7DE7F6C9D42079EE1872D295C3D55">
+			<Item class="Weld" referent="66">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -3210,13 +3210,13 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXA3B87E15FEA14BA99948C75047CF5C8D</Ref>
-					<Ref name="Part1">RBXDE6FE604A3A74DA181E49527C7A62947</Ref>
+					<Ref name="Part0">4</Ref>
+					<Ref name="Part1">22</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBX3310429287C04A0F826FEFD538BD7672">
+		<Item class="Part" referent="18">
 			<Properties>
 				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -3291,7 +3291,7 @@
 					<Z>12</Z>
 				</Vector3>
 			</Properties>
-			<Item class="Weld" referent="RBXE160B41F353F4CECBE3E09717E1487F1">
+			<Item class="Weld" referent="67">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -3325,12 +3325,12 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXB4582468175B498182C8BFBF8542A738</Ref>
-					<Ref name="Part1">RBX3310429287C04A0F826FEFD538BD7672</Ref>
+					<Ref name="Part0">55</Ref>
+					<Ref name="Part1">18</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBXA258DD09DDEF4061B809513E3241BC71">
+			<Item class="Weld" referent="68">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -3364,12 +3364,12 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXCCE83E0E43A045A98C07DB63CEF5FE08</Ref>
-					<Ref name="Part1">RBX3310429287C04A0F826FEFD538BD7672</Ref>
+					<Ref name="Part0">26</Ref>
+					<Ref name="Part1">18</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBX89D4CB662824405080F46EECE9541998">
+			<Item class="Weld" referent="69">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -3403,12 +3403,12 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXBC385863D22B4E15B9F72B834996E210</Ref>
-					<Ref name="Part1">RBX3310429287C04A0F826FEFD538BD7672</Ref>
+					<Ref name="Part0">16</Ref>
+					<Ref name="Part1">18</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBXE25C4930B84242B0855ACACC9813C188">
+			<Item class="Weld" referent="70">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -3442,13 +3442,13 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBX5E3C6A67B33B4F57B16D3814B7428B67</Ref>
-					<Ref name="Part1">RBX3310429287C04A0F826FEFD538BD7672</Ref>
+					<Ref name="Part0">20</Ref>
+					<Ref name="Part1">18</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Seat" referent="RBX83BC79612295402EAE0E0F2F154C1124">
+		<Item class="Seat" referent="71">
 			<Properties>
 				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -3524,7 +3524,7 @@
 					<Z>2</Z>
 				</Vector3>
 			</Properties>
-			<Item class="Weld" referent="RBX1F554B56E7734278A1B731AA4ABB17E5">
+			<Item class="Weld" referent="72">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -3558,13 +3558,13 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXA3B87E15FEA14BA99948C75047CF5C8D</Ref>
-					<Ref name="Part1">RBX83BC79612295402EAE0E0F2F154C1124</Ref>
+					<Ref name="Part0">4</Ref>
+					<Ref name="Part1">71</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBXC8FEF10DCE184768B4223BB6E802C40C">
+		<Item class="Part" referent="73">
 			<Properties>
 				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -3639,14 +3639,14 @@
 					<Z>1</Z>
 				</Vector3>
 			</Properties>
-			<Item class="Weld" referent="RBX4C2A3FE79DA04BD8AEE3DAB3F0DA1701">
+			<Item class="Weld" referent="74">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
 						<X>0.5</X>
 						<Y>-3</Y>
 						<Z>0.5</Z>
-						<R00>-0</R00>
+						<R00>0</R00>
 						<R01>0</R01>
 						<R02>1</R02>
 						<R10>0</R10>
@@ -3654,7 +3654,7 @@
 						<R12>0</R12>
 						<R20>-1</R20>
 						<R21>0</R21>
-						<R22>-0</R22>
+						<R22>0</R22>
 					</CoordinateFrame>
 					<CoordinateFrame name="C1">
 						<X>-8.5</X>
@@ -3673,12 +3673,12 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXB4582468175B498182C8BFBF8542A738</Ref>
-					<Ref name="Part1">RBXC8FEF10DCE184768B4223BB6E802C40C</Ref>
+					<Ref name="Part0">55</Ref>
+					<Ref name="Part1">73</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBX43AF74D9EDDE461F8EE58420FA98089C">
+			<Item class="Weld" referent="75">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -3712,12 +3712,12 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXCB469B642C1446A0BF295727D7896EF3</Ref>
-					<Ref name="Part1">RBXC8FEF10DCE184768B4223BB6E802C40C</Ref>
+					<Ref name="Part0">53</Ref>
+					<Ref name="Part1">73</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBX83765F6C68A9431D9DEA021DDACF2F63">
+			<Item class="Weld" referent="76">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -3730,7 +3730,7 @@
 						<R10>0</R10>
 						<R11>0</R11>
 						<R12>-1</R12>
-						<R20>-0</R20>
+						<R20>0</R20>
 						<R21>1</R21>
 						<R22>0</R22>
 					</CoordinateFrame>
@@ -3751,13 +3751,13 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBX3310429287C04A0F826FEFD538BD7672</Ref>
-					<Ref name="Part1">RBXC8FEF10DCE184768B4223BB6E802C40C</Ref>
+					<Ref name="Part0">18</Ref>
+					<Ref name="Part1">73</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBX50ECDBFEA8944A08811E1797726DECF0">
+		<Item class="Part" referent="77">
 			<Properties>
 				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -3832,14 +3832,14 @@
 					<Z>1</Z>
 				</Vector3>
 			</Properties>
-			<Item class="Weld" referent="RBX310C9AFD0FD4426AB715246BE1E70482">
+			<Item class="Weld" referent="78">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
 						<X>8.5</X>
 						<Y>-1</Y>
 						<Z>0.5</Z>
-						<R00>-0</R00>
+						<R00>0</R00>
 						<R01>0</R01>
 						<R02>1</R02>
 						<R10>0</R10>
@@ -3847,7 +3847,7 @@
 						<R12>0</R12>
 						<R20>-1</R20>
 						<R21>0</R21>
-						<R22>-0</R22>
+						<R22>0</R22>
 					</CoordinateFrame>
 					<CoordinateFrame name="C1">
 						<X>-0.5</X>
@@ -3866,12 +3866,12 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXCB469B642C1446A0BF295727D7896EF3</Ref>
-					<Ref name="Part1">RBX50ECDBFEA8944A08811E1797726DECF0</Ref>
+					<Ref name="Part0">53</Ref>
+					<Ref name="Part1">77</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBX0DFB6BC210614B2FB61938C132DA142E">
+			<Item class="Weld" referent="79">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -3884,7 +3884,7 @@
 						<R10>0</R10>
 						<R11>0</R11>
 						<R12>-1</R12>
-						<R20>-0</R20>
+						<R20>0</R20>
 						<R21>1</R21>
 						<R22>0</R22>
 					</CoordinateFrame>
@@ -3905,19 +3905,19 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBX3310429287C04A0F826FEFD538BD7672</Ref>
-					<Ref name="Part1">RBX50ECDBFEA8944A08811E1797726DECF0</Ref>
+					<Ref name="Part0">18</Ref>
+					<Ref name="Part1">77</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBX21F11319BC0F4F81B7E2384224BC4EB1">
+			<Item class="Weld" referent="80">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
 						<X>8.5</X>
 						<Y>-2</Y>
 						<Z>0.5</Z>
-						<R00>-0</R00>
+						<R00>0</R00>
 						<R01>0</R01>
 						<R02>1</R02>
 						<R10>0</R10>
@@ -3925,7 +3925,7 @@
 						<R12>0</R12>
 						<R20>-1</R20>
 						<R21>0</R21>
-						<R22>-0</R22>
+						<R22>0</R22>
 					</CoordinateFrame>
 					<CoordinateFrame name="C1">
 						<X>-0.5</X>
@@ -3944,12 +3944,12 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXC8FEF10DCE184768B4223BB6E802C40C</Ref>
-					<Ref name="Part1">RBX50ECDBFEA8944A08811E1797726DECF0</Ref>
+					<Ref name="Part0">73</Ref>
+					<Ref name="Part1">77</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Weld" referent="RBXE8CCD7F93E2943BA8EC47341272F42EE">
+			<Item class="Weld" referent="81">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="C0">
@@ -3983,8 +3983,8 @@
 					<bool name="Enabled">true</bool>
 					<bool name="IsAutoJoint">false</bool>
 					<string name="Name">Weld</string>
-					<Ref name="Part0">RBXA3B87E15FEA14BA99948C75047CF5C8D</Ref>
-					<Ref name="Part1">RBX50ECDBFEA8944A08811E1797726DECF0</Ref>
+					<Ref name="Part0">4</Ref>
+					<Ref name="Part1">77</Ref>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
