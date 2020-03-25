@@ -10,6 +10,8 @@ local Roact = require(Packages.Roact)
 
 local Desert = require(script.Parent.Desert)
 
+local activeRoadRadius = 15
+
 local World = Roact.Component:extend("World")
 
 function World:init()
@@ -23,7 +25,7 @@ function World:render()
 
 	local status = self.props.tripStatus
 	if status ~= nil then
-		if status.type == "driving" then
+		if status.type == "driving" or status.type == "crashed" then
 			children = {
 				Desert = Roact.createElement(Desert, {
 					progress = status.progress,
@@ -42,7 +44,13 @@ function World:applyTripStatus()
 
 	if status ~= nil then
 		if status.type == "driving" then
-			self.bus:SetPrimaryPartCFrame(CFrame.new(Vector3.new(9, 3, -status.progress * 30)))
+			local busPos = Vector3.new(
+				activeRoadRadius * status.busX,
+				3,
+				-status.progress * 30
+			)
+
+			self.bus:SetPrimaryPartCFrame(CFrame.new(busPos))
 
 			if not self.haveSeated and LocalPlayer.Character ~= nil then
 				print("Trying to seat character...")
@@ -59,6 +67,17 @@ function World:applyTripStatus()
 
 				self.haveSeated = true
 			end
+		elseif status.type == "crashed" then
+			local busPos = Vector3.new(
+				activeRoadRadius * status.busX,
+				2,
+				-status.progress * 30
+			)
+
+			local brokenDownTilt = math.sign(status.busX) * -math.pi / 32
+			local busTilt = CFrame.Angles(0, 0, brokenDownTilt)
+
+			self.bus:SetPrimaryPartCFrame(busTilt * CFrame.new(busPos))
 		else
 			error("Unknown trip status type " .. status.type)
 		end
