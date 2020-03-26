@@ -11,7 +11,8 @@ local function createTrip(driverPlayer)
 			type = "driving",
 			progress = 0,
 			busX = 0,
-			busSlope = 0.01,
+			busSlope = 0,
+			busSlopeInput = 0.05,
 		},
 	}
 
@@ -53,6 +54,8 @@ function ServerSession:step(dt)
 	for tripId, trip in pairs(self.trips) do
 		if trip.status.type == "driving" then
 			trip.status.progress = trip.status.progress + dt
+
+			trip.status.busSlope = trip.status.busSlope + trip.status.busSlopeInput * dt
 			trip.status.busX = trip.status.busX + trip.status.busSlope * dt
 
 			if math.abs(trip.status.busX) > 1 then
@@ -98,6 +101,32 @@ function ServerSession:startTrip(player)
 
 		self.netClient:tripStarted(player, tripId, trip.status)
 	end
+end
+
+function ServerSession:steerBus(player, tripId, steerInput)
+	local playerData = self.players[player.UserId]
+	if playerData == nil then
+		warn("Cannot steer bus from an unknown player")
+		return
+	end
+
+	local trip = self.trips[tripId]
+	if trip == nil then
+		warn("Cannot steer an unknown trip")
+		return
+	end
+
+	if playerData.tripId ~= tripId then
+		warn("Cannot steer someone else's bus")
+		return
+	end
+
+	if trip.status.type ~= "driving" then
+		warn("Cannot steer a bus that isn't driving")
+	end
+
+	steerInput = math.clamp(steerInput, -1, 1)
+	trip.status.busSlopeInput = steerInput + 0.05
 end
 
 function ServerSession:registerExistingPlayers()

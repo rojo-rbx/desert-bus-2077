@@ -7,6 +7,7 @@ local TripStatus = t.union(
 		progress = t.number,
 		busX = t.number,
 		busSlope = t.number,
+		busSlopeInput = t.number,
 	}),
 
 	t.strictInterface({
@@ -20,6 +21,13 @@ return {
 	fromClient = {
 		startTrip = {
 			arguments = Net.args(),
+		},
+
+		steerBus = {
+			arguments = Net.args(
+				{"tripId", t.string},
+				{"steerInput", t.number}
+			)
 		},
 	},
 	fromServer = {

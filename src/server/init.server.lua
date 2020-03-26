@@ -22,6 +22,10 @@ netClient = Net.NetServer.create(Api, {
 	startTrip = function(player)
 		serverSession:startTrip(player)
 	end,
+
+	steerBus = function(player, tripId, steerInput)
+		serverSession:steerBus(player, tripId, steerInput)
+	end,
 })
 
 serverSession = ServerSession.new(netClient)

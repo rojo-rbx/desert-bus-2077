@@ -8,6 +8,7 @@ function ClientSession.new(netClient)
 		netClient = netClient,
 		tripId = nil,
 		tripStatus = nil,
+		steeringInput = 0,
 		signal = Instance.new("BindableEvent"),
 	}, ClientSession)
 end
@@ -19,6 +20,13 @@ end
 function ClientSession:startTrip()
 	print("asking server to start a trip...")
 	self.netClient:startTrip()
+end
+
+function ClientSession:setSteeringInput(value)
+	if value ~= self.steeringInput then
+		self.steeringInput = value
+		self.netClient:steerBus(self.tripId, value)
+	end
 end
 
 function ClientSession:tripStarted(tripId, tripStatus)
