@@ -47,6 +47,9 @@ function World:applyTripStatus()
 
 	if status == nil then
 		self.bus.Parent = nil
+		self.seatWeld.Parent = nil
+		self.seatWeld.Part0 = nil
+		self.seatWeld.Part1 = nil
 	else
 		self.bus.Parent = self.folderRef:getValue()
 

@@ -35,6 +35,10 @@ local netClient = Net.NetClient.connect(Api, {
 	tripStatusUpdated = function(tripId, status)
 		clientSession:tripStatusUpdated(tripId, status)
 	end,
+
+	tripCompleted = function(tripId)
+		clientSession:tripCompleted(tripId)
+	end,
 })
 
 clientSession = ClientSession.new(netClient)

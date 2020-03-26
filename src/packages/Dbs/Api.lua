@@ -44,5 +44,11 @@ return {
 				{"tripStatus", TripStatus}
 			)
 		},
+
+		tripCompleted = {
+			arguments = Net.args(
+				{"tripId", t.string}
+			)
+		},
 	},
 }

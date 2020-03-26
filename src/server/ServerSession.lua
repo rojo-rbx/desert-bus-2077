@@ -1,6 +1,11 @@
-local Players = game:GetService("Players")
 local HttpService = game:GetService("HttpService")
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RunService = game:GetService("RunService")
+
+local Packages = ReplicatedStorage.Packages
+
+local GameConstants = require(Packages.Dbs.GameConstants)
 
 local function createTrip(driverPlayer)
 	local tripId = HttpService:GenerateGUID(false)
@@ -68,11 +73,27 @@ function ServerSession:step(dt)
 				}
 			end
 
-			for _, playerId in ipairs(trip.players) do
-				local playerData = self.players[playerId]
+			if trip.status.progress >= GameConstants.TripDistance then
+				-- you won
+				-- TODO: award something?
 
-				if playerData ~= nil then
-					self.netClient:tripStatusUpdated(playerData.player, tripId, trip.status)
+				self.trips[tripId] = nil
+
+				for _, playerId in ipairs(trip.players) do
+					local playerData = self.players[playerId]
+
+					if playerData ~= nil then
+						playerData.tripId = nil
+						self.netClient:tripCompleted(playerData.player, tripId)
+					end
+				end
+			else
+				for _, playerId in ipairs(trip.players) do
+					local playerData = self.players[playerId]
+
+					if playerData ~= nil then
+						self.netClient:tripStatusUpdated(playerData.player, tripId, trip.status)
+					end
 				end
 			end
 		end

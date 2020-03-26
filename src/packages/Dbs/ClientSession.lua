@@ -47,4 +47,15 @@ function ClientSession:tripStatusUpdated(tripId, tripStatus)
 	self.signal:Fire(self.tripStatus)
 end
 
+function ClientSession:tripCompleted(tripId)
+	if tripId ~= self.tripId then
+		warn("Server sent status update for wrong trip")
+		return
+	end
+
+	self.tripId = nil
+	self.tripStatus = nil
+	self.signal:Fire(nil)
+end
+
 return ClientSession

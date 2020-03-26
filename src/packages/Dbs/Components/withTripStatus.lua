@@ -19,7 +19,7 @@ end
 function Connector:didMount()
 	self.connection = self.props.clientSession:subscribe(function(tripStatus)
 		self:setState({
-			tripStatus = tripStatus,
+			tripStatus = tripStatus or Roact.None,
 		})
 	end)
 end
