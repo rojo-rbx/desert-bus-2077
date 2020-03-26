@@ -18,7 +18,7 @@ local World = Roact.Component:extend("World")
 function World:init()
 	self.folderRef = Roact.createRef()
 	self.bus = Bus:Clone()
-	self.haveSeated = false
+	self.seatWeld = Instance.new("WeldConstraint")
 end
 
 function World:render()
@@ -45,7 +45,11 @@ end
 function World:applyTripStatus()
 	local status = self.props.tripStatus
 
-	if status ~= nil then
+	if status == nil then
+		self.bus.Parent = nil
+	else
+		self.bus.Parent = self.folderRef:getValue()
+
 		if status.type == "driving" then
 			local busPos = Vector3.new(
 				activeRoadRadius * status.busX,
@@ -57,20 +61,17 @@ function World:applyTripStatus()
 
 			self.bus:SetPrimaryPartCFrame(CFrame.new(busPos) * busTilt)
 
-			if not self.haveSeated and LocalPlayer.Character ~= nil then
-				print("Trying to seat character...")
-
+			if LocalPlayer.Character ~= nil then
 				local driverSeat = self.bus:FindFirstChild("DriverSeat")
 				local hrp = LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
 
-				hrp.CFrame = driverSeat.CFrame + Vector3.new(0, 1, 0)
+				if hrp ~= nil and hrp ~= self.seatWeld.Part1 then
+					hrp.CFrame = driverSeat.CFrame + Vector3.new(0, 1, 0)
 
-				local weld = Instance.new("WeldConstraint")
-				weld.Parent = hrp
-				weld.Part0 = hrp
-				weld.Part1 = driverSeat
-
-				self.haveSeated = true
+					self.seatWeld.Parent = driverSeat
+					self.seatWeld.Part0 = driverSeat
+					self.seatWeld.Part1 = hrp
+				end
 			end
 		elseif status.type == "crashed" then
 			local busPos = Vector3.new(
@@ -90,7 +91,6 @@ function World:applyTripStatus()
 end
 
 function World:didMount()
-	self.bus.Parent = self.folderRef:getValue()
 	self:applyTripStatus()
 end
 
