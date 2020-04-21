@@ -31,6 +31,7 @@ local function App(props)
 		}, {
 			Ui = Roact.createElement("ScreenGui", {
 				ZIndexBehavior = Enum.ZIndexBehavior.Sibling,
+				ResetOnSpawn = false,
 			}, {
 				Roact.createElement(AppLoading),
 			}),
@@ -45,6 +46,7 @@ local function App(props)
 		}, {
 			Ui = Roact.createElement("ScreenGui", {
 				ZIndexBehavior = Enum.ZIndexBehavior.Sibling,
+				ResetOnSpawn = false,
 			}, {
 				StartTrip = ClientContext.with(function(clientSession)
 					return Roact.createElement("TextButton", {
