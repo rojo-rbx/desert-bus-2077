@@ -2,7 +2,7 @@
 	<Meta name="ExplicitAutoJoints">true</Meta>
 	<External>null</External>
 	<External>nil</External>
-	<Item class="Model" referent="RBX676DD9D609584B0E84E2783E6106B231">
+	<Item class="Model" referent="RBX5080D0F0EA8B4D4BA2E19ADC4F3179F1">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<CoordinateFrame name="ModelInPrimary">
@@ -20,10 +20,10 @@
 				<R22>1</R22>
 			</CoordinateFrame>
 			<string name="Name">RoadSegment</string>
-			<Ref name="PrimaryPart">RBXEFE15096E9734E1DBED8B8851A15F9E1</Ref>
+			<Ref name="PrimaryPart">RBX1CADBE0D24CA490BAD3A0CBDF26C83D5</Ref>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
-		<Item class="Part" referent="RBX113928917D394C63880530D130065D2C">
+		<Item class="Part" referent="RBX8F6CD4391CE04286A4CB05DC51D8B207">
 			<Properties>
 				<bool name="Anchored">true</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -37,7 +37,7 @@
 				<token name="BottomSurfaceInput">0</token>
 				<CoordinateFrame name="CFrame">
 					<X>0</X>
-					<Y>0.600000024</Y>
+					<Y>1.10001194</Y>
 					<Z>18</Z>
 					<R00>1</R00>
 					<R01>0</R01>
@@ -99,7 +99,7 @@
 				</Vector3>
 			</Properties>
 		</Item>
-		<Item class="Part" referent="RBX084FC7B7FB0944F7B1A41E98DE410847">
+		<Item class="Part" referent="RBXC5748E42E08F429095F616656912EC26">
 			<Properties>
 				<bool name="Anchored">true</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -113,7 +113,7 @@
 				<token name="BottomSurfaceInput">0</token>
 				<CoordinateFrame name="CFrame">
 					<X>0</X>
-					<Y>0.600000024</Y>
+					<Y>1.10001194</Y>
 					<Z>10</Z>
 					<R00>1</R00>
 					<R01>0</R01>
@@ -175,7 +175,7 @@
 				</Vector3>
 			</Properties>
 		</Item>
-		<Item class="Part" referent="RBX9CDC05012FAA4A0DB7938B07A6A6284F">
+		<Item class="Part" referent="RBX6B8D4D2F749C410E86C0DD8D73B92A80">
 			<Properties>
 				<bool name="Anchored">true</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -189,7 +189,7 @@
 				<token name="BottomSurfaceInput">0</token>
 				<CoordinateFrame name="CFrame">
 					<X>0</X>
-					<Y>0.600000024</Y>
+					<Y>1.10001194</Y>
 					<Z>-6</Z>
 					<R00>1</R00>
 					<R01>0</R01>
@@ -251,7 +251,7 @@
 				</Vector3>
 			</Properties>
 		</Item>
-		<Item class="Part" referent="RBX17C9CC7E42BC43F7B3C2880F89FDC666">
+		<Item class="Part" referent="RBX93AB7B970E7C44CCB9791D87A0B80212">
 			<Properties>
 				<bool name="Anchored">true</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -265,7 +265,7 @@
 				<token name="BottomSurfaceInput">0</token>
 				<CoordinateFrame name="CFrame">
 					<X>0</X>
-					<Y>0.600000024</Y>
+					<Y>1.10001194</Y>
 					<Z>2</Z>
 					<R00>1</R00>
 					<R01>0</R01>
@@ -327,7 +327,7 @@
 				</Vector3>
 			</Properties>
 		</Item>
-		<Item class="Part" referent="RBX011AFA2A07444EEB9DBD63EC8EBFB742">
+		<Item class="Part" referent="RBX005A4E10F83643F9A2B08E5A39F16F37">
 			<Properties>
 				<bool name="Anchored">true</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -341,7 +341,7 @@
 				<token name="BottomSurfaceInput">0</token>
 				<CoordinateFrame name="CFrame">
 					<X>0</X>
-					<Y>0.600000024</Y>
+					<Y>1.10001194</Y>
 					<Z>-14</Z>
 					<R00>1</R00>
 					<R01>0</R01>
@@ -403,7 +403,7 @@
 				</Vector3>
 			</Properties>
 		</Item>
-		<Item class="Part" referent="RBX258EB86841BE4B7F8A23A74CD709C2D2">
+		<Item class="Part" referent="RBX31527335FC154DA4B1CF99E0202C69CA">
 			<Properties>
 				<bool name="Anchored">true</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -417,7 +417,7 @@
 				<token name="BottomSurfaceInput">0</token>
 				<CoordinateFrame name="CFrame">
 					<X>17</X>
-					<Y>0.600000024</Y>
+					<Y>1.10001194</Y>
 					<Z>0</Z>
 					<R00>1</R00>
 					<R01>0</R01>
@@ -479,7 +479,7 @@
 				</Vector3>
 			</Properties>
 		</Item>
-		<Item class="Part" referent="RBXF175928F148C4848823BB6D476BAB7E6">
+		<Item class="Part" referent="RBX645922CA69B943AB93B71EAB29509723">
 			<Properties>
 				<bool name="Anchored">true</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -493,7 +493,7 @@
 				<token name="BottomSurfaceInput">0</token>
 				<CoordinateFrame name="CFrame">
 					<X>-17</X>
-					<Y>0.600000024</Y>
+					<Y>1.10001194</Y>
 					<Z>0</Z>
 					<R00>1</R00>
 					<R01>0</R01>
@@ -555,7 +555,7 @@
 				</Vector3>
 			</Properties>
 		</Item>
-		<Item class="Part" referent="RBXEFE15096E9734E1DBED8B8851A15F9E1">
+		<Item class="Part" referent="RBX1CADBE0D24CA490BAD3A0CBDF26C83D5">
 			<Properties>
 				<bool name="Anchored">true</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -569,7 +569,7 @@
 				<token name="BottomSurfaceInput">0</token>
 				<CoordinateFrame name="CFrame">
 					<X>0</X>
-					<Y>0</Y>
+					<Y>0.500012994</Y>
 					<Z>0</Z>
 					<R00>1</R00>
 					<R01>0</R01>
@@ -631,7 +631,7 @@
 				</Vector3>
 			</Properties>
 		</Item>
-		<Item class="Part" referent="RBXA76AB49CB57349CBA58D6AC22E2BF68E">
+		<Item class="Part" referent="RBX52C37D1AB5E1479FAC3463A6CDC0C4D9">
 			<Properties>
 				<bool name="Anchored">true</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -644,8 +644,8 @@
 				<token name="BottomSurface">0</token>
 				<token name="BottomSurfaceInput">0</token>
 				<CoordinateFrame name="CFrame">
-					<X>-40</X>
-					<Y>0</Y>
+					<X>-80</X>
+					<Y>0.500012994</Y>
 					<Z>0</Z>
 					<R00>1</R00>
 					<R01>0</R01>
@@ -701,13 +701,13 @@
 				<token name="formFactorRaw">1</token>
 				<token name="shape">1</token>
 				<Vector3 name="size">
-					<X>40</X>
+					<X>120</X>
 					<Y>1</Y>
 					<Z>40</Z>
 				</Vector3>
 			</Properties>
 		</Item>
-		<Item class="Part" referent="RBXDD4F01D94D8A433DA826917BDB250883">
+		<Item class="Part" referent="RBX8A01F5DAB2784E8A9AAFD61F4246272A">
 			<Properties>
 				<bool name="Anchored">true</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -720,8 +720,8 @@
 				<token name="BottomSurface">0</token>
 				<token name="BottomSurfaceInput">0</token>
 				<CoordinateFrame name="CFrame">
-					<X>40</X>
-					<Y>0</Y>
+					<X>80</X>
+					<Y>0.500012994</Y>
 					<Z>0</Z>
 					<R00>1</R00>
 					<R01>0</R01>
@@ -777,7 +777,7 @@
 				<token name="formFactorRaw">1</token>
 				<token name="shape">1</token>
 				<Vector3 name="size">
-					<X>40</X>
+					<X>120</X>
 					<Y>1</Y>
 					<Z>40</Z>
 				</Vector3>
