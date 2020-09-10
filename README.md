@@ -8,9 +8,9 @@ Demo project for tools in the Rojo ecosystem. Some assembly required.
 
 The primary goal of this project is to showcase a workflow with these tools:
 
-* [Rojo](https://github.com/Roblox/rojo), a build system
+* [Rojo](https://github.com/rojo-rbx/rojo), a build system
+* [Remodel](https://github.com/rojo-rbx/remodel), a deployment manager and multitool
 * [Foreman](https://github.com/Roblox/foreman), a toolchain manager
-* [Remodel](https://github.com/Roblox/remodel), a deployment manager and multitool
 * [Tarmac](https://github.com/Roblox/tarmac), an asset manager
 
 The secondary goal of this project is to create a terrible game.
