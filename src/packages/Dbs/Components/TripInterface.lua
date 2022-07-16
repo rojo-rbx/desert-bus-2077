@@ -15,7 +15,7 @@ local function TripInterface(props)
 			Position = UDim2.new(0.5, 0, 0, 80),
 			AnchorPoint = Vector2.new(0.5, 0),
 			BackgroundColor3 = Color3.fromRGB(12, 12, 12),
-			Color3 = Color3.fromRGB(240, 240, 240),
+			TextColor3 = Color3.fromRGB(240, 240, 240),
 			BorderSizePixel = 0,
 			TextSize = 40,
 			Font = Enum.Font.SourceSans,
