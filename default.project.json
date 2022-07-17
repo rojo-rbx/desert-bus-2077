@@ -7,7 +7,6 @@
       "$properties": {
         "GlobalShadows": true,
         "Technology": "ShadowMap",
-        "ShadowSoftness": 0.5,
         "TimeOfDay": "14:00:00",
         "GeographicLatitude": 45,
         "ShadowSoftness": 0,
